@@ -1,7 +1,5 @@
 package net.fabricmc.example;
 
-
-import net.fabricmc.example.custom.*;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -35,25 +33,25 @@ public class ModBlocks {
     public static void generateSlabs(String[] dye_colours){
         for(String colour:dye_colours) {
             String terracotta_name = colour + "_terracotta_slab";
-            registerBlock(terracotta_name, new CustomSlab(terracottaSettings), ModItemGroups.TERRACOTTA_GROUP);
+            registerBlock(terracotta_name, new SlabBlock(terracottaSettings), ModItemGroups.TERRACOTTA_GROUP);
 
             String concrete_name = colour + "_concrete_slab";
-            registerBlock(concrete_name, new CustomSlab(concreteSettings), ModItemGroups.CONCRETE_GROUP);
+            registerBlock(concrete_name, new SlabBlock(concreteSettings), ModItemGroups.CONCRETE_GROUP);
         }
-        registerBlock("terracotta_slab", new CustomSlab(terracottaSettings), ModItemGroups.TERRACOTTA_GROUP);
+        registerBlock("terracotta_slab", new SlabBlock(terracottaSettings), ModItemGroups.TERRACOTTA_GROUP);
     }
 
     public static void generateStairs(String[] dye_colours){
         for(String colour:dye_colours) {
             String terracotta_name = colour + "_terracotta_stairs";
-            registerBlock(terracotta_name, new CustomStairs(Blocks.TERRACOTTA.getDefaultState(),
+            registerBlock(terracotta_name, new StairsBlock(Blocks.TERRACOTTA.getDefaultState(),
                     terracottaSettings), ModItemGroups.TERRACOTTA_GROUP);
 
             String concrete_name = colour + "_concrete_stairs";
-            registerBlock(concrete_name, new CustomStairs(Blocks.WHITE_CONCRETE.getDefaultState(),
+            registerBlock(concrete_name, new StairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(),
                     concreteSettings), ModItemGroups.CONCRETE_GROUP);
         }
-        registerBlock("terracotta_stairs", new CustomStairs(Blocks.TERRACOTTA.getDefaultState(),
+        registerBlock("terracotta_stairs", new StairsBlock(Blocks.TERRACOTTA.getDefaultState(),
                 terracottaSettings), ModItemGroups.TERRACOTTA_GROUP);
     }
 
@@ -61,15 +59,15 @@ public class ModBlocks {
 
         for(String colour:dye_colours) {
             String terracotta_name = colour + "_terracotta_wall";
-            registerBlock(terracotta_name, new CustomWall(
+            registerBlock(terracotta_name, new WallBlock(
                     terracottaSettings), ModItemGroups.TERRACOTTA_GROUP);
 
             String concrete_name = colour + "_concrete_wall";
-            registerBlock(concrete_name, new CustomWall(
+            registerBlock(concrete_name, new WallBlock(
                     concreteSettings), ModItemGroups.CONCRETE_GROUP);
         }
 
-        registerBlock("terracotta_wall", new CustomWall(terracottaSettings), ModItemGroups.TERRACOTTA_GROUP);
+        registerBlock("terracotta_wall", new WallBlock(terracottaSettings), ModItemGroups.TERRACOTTA_GROUP);
     }
 
     public static void registerModBlocks(){
