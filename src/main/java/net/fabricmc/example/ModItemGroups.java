@@ -13,8 +13,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-    public static final RegistryKey<ItemGroup> TERRACOTTA_GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier("moreterracotta", "terracotta_group"));
-    public static final RegistryKey<ItemGroup> CONCRETE_GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, new Identifier("moreterracotta", "concrete_group"));
+    public static final RegistryKey<ItemGroup> TERRACOTTA_GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of("moreterracotta", "terracotta_group"));
+    public static final RegistryKey<ItemGroup> CONCRETE_GROUP = RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of("moreterracotta", "concrete_group"));
 
     public static void initialiseItemGroups() {
         Registry.register(Registries.ITEM_GROUP, TERRACOTTA_GROUP, FabricItemGroup.builder()
