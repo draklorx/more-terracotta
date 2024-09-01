@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:light_gray_concrete"
   },
-  "result": "moreterracotta:light_gray_concrete_stairs",
-  "count": 1
+  "result": {
+    "id": "moreterracotta:light_gray_concrete_stairs",
+    "count": 1
+  }
 }

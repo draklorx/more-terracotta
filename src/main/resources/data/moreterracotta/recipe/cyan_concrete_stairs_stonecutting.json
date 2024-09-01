@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:cyan_concrete"
   },
-  "result": "moreterracotta:cyan_concrete_stairs",
-  "count": 1
+  "result": {
+    "id": "moreterracotta:cyan_concrete_stairs",
+    "count": 1
+  }
 }

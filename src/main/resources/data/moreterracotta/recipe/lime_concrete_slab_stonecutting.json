@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:lime_concrete"
   },
-  "result": "moreterracotta:lime_concrete_slab",
-  "count": 2
+  "result": {
+    "id": "moreterracotta:lime_concrete_slab",
+    "count": 2
+  }
 }

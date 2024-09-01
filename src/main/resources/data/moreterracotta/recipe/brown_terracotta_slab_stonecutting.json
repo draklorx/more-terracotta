@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:brown_terracotta"
   },
-  "result": "moreterracotta:brown_terracotta_slab",
-  "count": 2
+  "result": {
+    "id": "moreterracotta:brown_terracotta_slab",
+    "count": 2
+  }
 }

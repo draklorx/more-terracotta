@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:purple_concrete"
   },
-  "result": "moreterracotta:purple_concrete_stairs",
-  "count": 1
+  "result": {
+    "id": "moreterracotta:purple_concrete_stairs",
+    "count": 1
+  }
 }

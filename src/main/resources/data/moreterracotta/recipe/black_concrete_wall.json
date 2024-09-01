@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "category": "misc",
   "pattern": [
     "###",
     "###"
@@ -10,7 +11,7 @@
     }
   },
   "result": {
-    "item": "moreterracotta:black_concrete_wall",
+    "id": "moreterracotta:black_concrete_wall",
     "count": 6
   }
 }

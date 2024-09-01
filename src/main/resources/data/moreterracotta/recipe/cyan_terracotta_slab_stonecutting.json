@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:cyan_terracotta"
   },
-  "result": "moreterracotta:cyan_terracotta_slab",
-  "count": 2
+  "result": {
+    "id": "moreterracotta:cyan_terracotta_slab",
+    "count": 2
+  }
 }

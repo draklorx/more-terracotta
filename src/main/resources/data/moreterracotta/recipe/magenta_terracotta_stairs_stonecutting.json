@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:magenta_terracotta"
   },
-  "result": "moreterracotta:magenta_terracotta_stairs",
-  "count": 1
+  "result": {
+    "id": "moreterracotta:magenta_terracotta_stairs",
+    "count": 1
+  }
 }

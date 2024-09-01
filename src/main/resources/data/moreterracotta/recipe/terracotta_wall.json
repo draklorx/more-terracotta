@@ -10,7 +10,7 @@
     }
   },
   "result": {
-    "item": "moreterracotta:terracotta_wall",
+    "id": "moreterracotta:terracotta_wall",
     "count": 6
   }
 }

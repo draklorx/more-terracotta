@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:white_concrete"
   },
-  "result": "moreterracotta:white_concrete_slab",
-  "count": 2
+  "result": {
+    "id": "moreterracotta:white_concrete_slab",
+    "count": 2
+  }
 }

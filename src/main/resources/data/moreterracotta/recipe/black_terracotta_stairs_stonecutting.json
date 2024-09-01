@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:black_terracotta"
   },
-  "result": "moreterracotta:black_terracotta_stairs",
-  "count": 1
+  "result": {
+    "id": "moreterracotta:black_terracotta_stairs",
+    "count": 1
+  }
 }

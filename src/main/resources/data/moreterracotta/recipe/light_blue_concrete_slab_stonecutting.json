@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:light_blue_concrete"
   },
-  "result": "moreterracotta:light_blue_concrete_slab",
-  "count": 2
+  "result": {
+    "id": "moreterracotta:light_blue_concrete_slab",
+    "count": 2
+  }
 }

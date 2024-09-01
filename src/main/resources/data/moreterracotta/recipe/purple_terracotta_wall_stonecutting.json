@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:purple_terracotta"
   },
-  "result": "moreterracotta:purple_terracotta_wall",
-  "count": 1
+  "result": {
+    "id": "moreterracotta:purple_terracotta_wall",
+    "count": 1
+  }
 }

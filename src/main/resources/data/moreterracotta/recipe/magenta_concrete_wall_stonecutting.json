@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:magenta_concrete"
   },
-  "result": "moreterracotta:magenta_concrete_wall",
-  "count": 1
+  "result": {
+    "id": "moreterracotta:magenta_concrete_wall",
+    "count": 1
+  }
 }

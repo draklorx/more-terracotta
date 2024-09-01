@@ -3,6 +3,8 @@
   "ingredient": {
     "item": "minecraft:pink_concrete"
   },
-  "result": "moreterracotta:pink_concrete_wall",
-  "count": 1
+  "result": {
+    "id": "moreterracotta:pink_concrete_wall",
+    "count": 1
+  }
 }
